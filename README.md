@@ -85,6 +85,10 @@ GET /api/book: Retrieves a paginated list of books.
 
 GET /api/book/:bookId: Retrieves details of a specific book.
 
+GET /api/book/:year: Retrieves all books by year.
+
+GET /api/book/:author: Retrieves all books by given author.
+
 POST /api/book: Add new book by the currently logged-in user.
 
 PUT /api/book/: Updates information of a specific book.
